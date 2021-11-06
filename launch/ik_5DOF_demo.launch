@@ -1,0 +1,21 @@
+<launch>
+    <node  name="ik_5DOF_client"  pkg="kdl_tutorial" type="ik_5DOF_client"
+    args="1"
+    output="screen">
+        <rosparam>
+            joint_states:
+                {
+                header: {seq: 123, stamp: 0, frame_id: none}, 
+                name: [jnt_state_1], 
+                position: [0.0, 0.0, 0.0, 0.0, 0.0], 
+                velocity: [0.0, 0.0, 0.0, 0.0, 0.0], 
+                effort: [0.0, 0.0, 0.0, 0.0, 0.0]
+                }
+            twist:
+                {
+                linear: {x: 1.0, y: 0.0, z: 0.0},
+                angular: {x: 0.0, y: 0.0, z: 0.0}
+                }
+        </rosparam>
+     </node>
+</launch>

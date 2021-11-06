@@ -1,0 +1,4 @@
+geometry_msgs/Twist cart_vel
+sensor_msgs/JointState jnt_pos_cur
+---
+sensor_msgs/JointState jnt_vel 
