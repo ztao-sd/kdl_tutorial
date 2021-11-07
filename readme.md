@@ -1,5 +1,7 @@
 # KDL Tutorial
 
+ROS package to demo Orocos KDL
+
 Geometric primitives:
 * vectors
 * rotation matrix
